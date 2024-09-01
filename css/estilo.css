@@ -1,0 +1,238 @@
+/*
+color primario
+color
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
+    font-family: 'Georgia', serif;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #000000;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Verdana', sans-serif;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #5e5d5d;
+}
+
+#promociones {
+    background-color: #5f5d5d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Carnes {
+    background-image: url(../img/carne.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    padding: 20px;
+}
+
+#Pastas {
+    background-image: url(../img/pasta.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    padding: 20px;
+}
+
+#Postres {
+    background-image: url(../img/postres.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    padding: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 992px) {
+    header, nav ul, section, footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
+    font-family: 'Georgia', serif;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #000000;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Verdana', sans-serif;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #5e5d5d;
+}
+
+
+#promociones {
+    background-color: #5f5d5d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#Carnes {
+    background-image: url(../img/carne.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    padding: 20px;
+}
+
+
+#Pastas {
+    background-image: url(../img/pasta.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    padding: 20px;
+}
+
+
+#Postres {
+    background-image: url(../img/postres.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.options-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+@media (min-width: 992px) {
+    header, nav ul, section, footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+
